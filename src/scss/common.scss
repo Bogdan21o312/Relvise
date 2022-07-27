@@ -1,0 +1,60 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+.page {
+    flex: 1 1 auto;
+    &__main-block {
+    }
+    &__services {
+        position: relative;
+        z-index: 2;
+        margin: -111px 0px 0px 0px;
+    }
+    &__advantages {
+    }
+    &__practice {
+    }
+    &__clients:not(:last-child) {
+        margin: 0px 0px rem(10) 0px;
+    }
+    &__whoweare {
+    }
+    &__clients {
+    }
+    &__subscribe {
+    }
+    &__getintouch {
+    }
+    &__contact {
+    }
+}
+
+._ibg {
+	position: relative;
+}
+._ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+
+.header-block {
+	text-align: center;
+	letter-spacing: 0.2px;
+    &__title {
+        line-height: 142%;
+        font-weight: 700;
+        @include adaptiveValue("font-size", 40, 30);
+        &:not(:last-child) {
+            margin: 0px 0px 10px 0px;
+        }
+    }
+    &__sub-title {
+        line-height: 142%;
+        color: $textColor;
+    }
+}
+

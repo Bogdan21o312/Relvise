@@ -1,0 +1,62 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+._icon-cursor:before {
+	content: "\e900";
+  }
+  ._icon-geo:before {
+	content: "\e901";
+  }
+  ._icon-phone:before {
+	content: "\e902";
+  }
+  ._icon-toutube:before {
+	content: "\e903";
+  }
+  ._icon-twiter:before {
+	content: "\e904";
+  }
+  ._icon-instagram:before {
+	content: "\e905";
+  }
+  ._icon-faceboock:before {
+	content: "\e906";
+  }
+  ._icon-case:before {
+	content: "\e90a";
+  }
+  ._icon-adward:before {
+	content: "\e90b";
+  }
+  ._icon-schedule:before {
+	content: "\e90c";
+  }
+  ._icon-pipel_1:before {
+	content: "\e90d";
+  }
+  ._icon-speed:before {
+	content: "\e90e";
+  }
+  ._icon-pipel_2:before {
+	content: "\e90f";
+  }
+  ._icon-book:before {
+	content: "\e910";
+  }
+  ._icon-shop:before {
+	content: "\e911";
+  }
